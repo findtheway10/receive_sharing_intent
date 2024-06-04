@@ -50,6 +50,7 @@ android {
         compileSdk 34
         minSdkVersion 19
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        multiDexEnabled true
     }
     lintOptions {
         disable 'InvalidPackage'
